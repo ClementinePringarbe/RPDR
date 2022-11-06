@@ -1,0 +1,70 @@
+
+body {
+    background-image: url("images/werk_room1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.loading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2.5em;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.loading__circle {
+    background-color: lightgrey;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    margin: 0.8rem;
+}
+
+.loading__circle--color-red:hover {
+   background-color: #ea4335;
+   transform: scale(1.5);
+   transition-delay: 1s;
+   transition-duration: 1s;
+}
+
+.loading__circle--color-orange:hover {
+   background-color: orangered;
+   transform: scale(1.5);
+   transition-delay: 1s;
+   transition-duration: 1s;
+}
+
+.loading__circle--color-yellow:hover {
+   background-color: #fbbc05;
+   transform: scale(1.5);
+   transition-delay: 1s;
+   transition-duration: 1s;
+}
+
+.loading__circle--color-green:hover {
+   background-color: #34a853;
+   transform: scale(1.5);
+   transition-delay: 1s;
+   transition-duration: 1s;
+}
+
+.loading__circle--color-blue:hover {
+    background-color: blue;
+    transform: scale(1.5);
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+
+.loading__circle--color-purple:hover {
+    background-color: purple;
+    transform: scale(1.5);
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
